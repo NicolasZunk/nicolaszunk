@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (navigator.share) {
         try {
           await navigator.share({
-            title: 'DAK CALVO',
-            text: 'Confira os links do DAK CALVO!',
+            title: 'NICOLAS ZUNK',
+            text: 'Confira os links do NICOLAS ZUNK!',
             url: window.location.href
           });
         } catch (err) {
@@ -40,4 +40,5 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   }
+
 });
